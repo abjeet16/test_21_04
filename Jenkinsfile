@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 sh 'javac random.java'
-                sh 'java random.java'
+                sh 'java random'
            }
         }
     }
