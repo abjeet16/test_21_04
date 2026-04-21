@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'javac random.java'
                 sh 'java random.java'
+                sh 'echo abjeet'
            }
         }
     }
