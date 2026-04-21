@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo "hello i am abjeet"
+                sh 'javac random.java'
+                sh 'java random.java'
            }
         }
     }
